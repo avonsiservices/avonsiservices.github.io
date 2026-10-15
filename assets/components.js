@@ -1,5 +1,5 @@
 /* ============================================================
-   avonsi.com — shared web components
+   avonsiservices.github.io — shared web components
    assets/components.js · v2.1
    ============================================================ */
 
@@ -36,7 +36,7 @@ class SiteFooter extends HTMLElement {
         <div class="site-footer-meta">
           <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
           &nbsp;&nbsp;
-          <a href="https://avonsi.com">avonsi.com</a>
+          <a href="https://avonsiservices.github.io">avonsi.com</a>
           &nbsp;&nbsp;2026
           &nbsp;&nbsp;·&nbsp;&nbsp;
           <a href="https://github.com/avonsiservices/avonsiservices.github.io" target="_blank" title="Star on GitHub">⭐ Star on GitHub</a>
@@ -56,7 +56,7 @@ class SiteFooterArticle extends HTMLElement {
         <div class="site-footer-meta">
           <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
           &nbsp;&nbsp;
-          <a href="https://avonsi.com">avonsi.com</a>
+          <a href="https://avonsiservices.github.io">avonsi.com</a>
           &nbsp;&nbsp;2026
           &nbsp;&nbsp;·&nbsp;&nbsp;
           <a href="https://github.com/avonsiservices/avonsiservices.github.io" target="_blank" title="Star on GitHub">⭐ Star on GitHub</a>

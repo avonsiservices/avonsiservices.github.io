@@ -10,7 +10,7 @@ license: MIT
 version: 0.1.0
 metadata:
   author: Avonsi Services
-  website: https://avonsi.com
+  website: https://avonsiservices.github.io
 ---
 
 # Harness Reference (`harness-ref`)
@@ -140,7 +140,7 @@ This card is a reference. For the working protocol and its enforcement:
 
 - **Product:** https://oystro.com
 - **Protocol (open source):** https://github.com/oystro/oystro-oss
-- **Author:** Avonsi Services — https://avonsi.com
+- **Author:** Avonsi Services — https://avonsiservices.github.io
 
 ---
 

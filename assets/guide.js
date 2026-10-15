@@ -1,5 +1,5 @@
 /* ============================================================
-   avonsi.com — shared guide navigation
+   avonsiservices.github.io — shared guide navigation
    assets/guide.js · v1.0
    ============================================================ */
 

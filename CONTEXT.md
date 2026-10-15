@@ -17,7 +17,7 @@ git branch --show-current
 ## Who You Are
 
 - **Brand:** Avonsi Services
-- **Site:** avonsi.com  
+- **Site:** avonsiservices.github.io (avonsi.com pending redirect)  
 - **Purpose:** Personal blog/publishing space for articles on agentic engineering and related frameworks  
 - **Style:** Black and white editorial — clean, professional, low-strain charcoal dark mode.
 - **License:** MIT License for code (see LICENSE file), CC BY 4.0 for content (see site footer).
