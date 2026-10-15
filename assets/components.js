@@ -72,8 +72,7 @@ class SiteHeaderHome extends HTMLElement {
       <header class="site-header">
         <div class="site-header-main">
           <a class="site-name" href="/">
-            <img src="/assets/logo.png?v=2" alt="Avonsi Services" class="logo-img">
-            <span class="logo-text">Avonsi <strong>Services</strong></span>
+            <img src="/assets/avonsi-header.jpg?v=2" alt="Avonsi Services" class="logo-img">
           </a>
           <nav class="site-header-nav">
             <a href="/">All</a>
@@ -95,8 +94,7 @@ class SiteHeaderArticle extends HTMLElement {
       <header class="site-header">
         <div class="site-header-main">
           <a class="site-name" href="/">
-            <img src="/assets/logo.png?v=2" alt="Avonsi Services" class="logo-img">
-            <span class="logo-text">Avonsi <strong>Services</strong></span>
+            <img src="/assets/avonsi-header.jpg?v=2" alt="Avonsi Services" class="logo-img">
           </a>
           <nav class="site-header-nav">
             <a class="back-link" href="/">Home</a>
