@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="../../assets/style.css?v=1.1">
 <link rel="stylesheet" href="../../assets/article.css?v=1.1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Harness Engineering in Practice — Avon Software Labs</title>
+<title>Harness Engineering in Practice — Avonsi Services</title>
 <script src="../../assets/components.js?v=1.1" defer></script>
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
@@ -16,19 +16,19 @@
 
 <meta name="description" content="A concrete reference implementation — how to actually use a harness for greenfield and brownfield projects">
 <meta name="keywords" content="harness engineering, agentic development, AI coding, spec-driven development, human-in-the-loop, DDD, BMAD, greenfield, brownfield">
-<meta name="author" content="Avon Software Labs">
+<meta name="author" content="Avonsi Services">
 
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://avons.github.io/notes/harness-eng/">
-<meta property="og:title" content="Harness Engineering in Practice — Avon Software Labs">
+<meta property="og:url" content="https://avonsi.com/notes/harness-eng/">
+<meta property="og:title" content="Harness Engineering in Practice — Avonsi Services">
 <meta property="og:description" content="A concrete reference implementation — how to actually use a harness for greenfield and brownfield projects">
-<meta property="og:image" content="https://avons.github.io/assets/logo.png?v=1.1">
+<meta property="og:image" content="https://avonsi.com/assets/logo.png?v=2">
 
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://avons.github.io/notes/harness-eng/">
-<meta property="twitter:title" content="Harness Engineering in Practice — Avon Software Labs">
+<meta property="twitter:url" content="https://avonsi.com/notes/harness-eng/">
+<meta property="twitter:title" content="Harness Engineering in Practice — Avonsi Services">
 <meta property="twitter:description" content="A concrete reference implementation — how to actually use a harness for greenfield and brownfield projects">
-<meta property="twitter:image" content="https://avons.github.io/assets/logo.png?v=1.1">
+<meta property="twitter:image" content="https://avonsi.com/assets/logo.png?v=2">
 
 </head>
 <body>
@@ -45,15 +45,17 @@
     <span>·</span>
     <span>July 2026</span>
     <span>·</span>
-    <a href="https://avons.github.io" target="_blank">avons.github.io</a>
+    <a href="https://avonsi.com" target="_blank">avonsi.com</a>
   </div>
 </div>
+
+<div class="callout callout-insight"><strong>Update:</strong> The harness described in this article has evolved into a product — <a href="https://oystro.com" target="_blank">Oystro</a> (public protocol: <a href="https://github.com/oystro/oystro-oss" target="_blank">oystro-oss</a>). A minimal, framework-free version of the core ideas lives at <a href="../../harness-ref/SKILL.md">harness-ref</a>. The original <code>harness-eng</code> repository is no longer public.</div>
 
 <!-- ══ INTRODUCTION ═══════════════════════════════════════════════ -->
 <h1>The Journey So Far</h1>
 <p>Over the past several months, we have published seven guides that build the theoretical foundation for agentic engineering: <a href="../../guides/ddd/" target="_blank">DDD</a>, <a href="../../guides/event-storming/" target="_blank">Event Storming</a>, <a href="../../guides/flowcharts/" target="_blank">Flowcharts</a>, <a href="../../guides/ddd-to-context/" target="_blank">Domain Context Engineering</a>, <a href="../../guides/bmad/" target="_blank">BMAD</a>, <a href="../../guides/attractor/" target="_blank">Attractor</a>, and <a href="../../guides/synthesis/" target="_blank">the Synthesis</a>. Together, they define the four layers of agentic development, the dependency sequence between them, and the discipline that ties them together.</p>
 <p>This article is the reference implementation of those theories — specifically Layer 3, the structured execution harness. It is not a new framework. It is a concrete way to apply what the earlier guides described. If the previous guides answered "why," this one answers "how."</p>
-<p>The <a href="https://github.com/AvonS/harness-eng" target="_blank">harness-eng</a> repository is the working proof: a file-based convention you clone, adapt, and use. Tested with open agents like MiMo Code and OpenCode. From big picture to shipped feature.</p>
+<p>This article described the original <strong>harness-eng</strong> reference implementation. That idea has since evolved into a product: <a href="https://oystro.com" target="_blank">Oystro</a>, with its public protocol at <a href="https://github.com/oystro/oystro-oss" target="_blank">oystro-oss</a>. The core concepts are also distilled into a single, framework-free skill — <a href="../../harness-ref/SKILL.md">harness-ref</a>.</p>
 
 <!-- ══ THE RATIONALE ═════════════════════════════════════════════ -->
 <h1>The Rationale</h1>
@@ -227,7 +229,7 @@ graph TD
 
 <h2>Step 2: Initialise the Harness</h2>
 <p>Now that you have direction, open your agent in the project directory and paste:</p>
-<div class="callout callout-quote"><p>Read the harness rules from https://github.com/AvonS/harness-eng and initialise this project using the harness.</p></div>
+<div class="callout callout-quote"><p>Read the harness reference at https://avonsi.com/harness-ref/SKILL.md and initialise this project using the harness.</p></div>
 <p>The agent scans your project (empty in this case), asks clarifying questions, and creates the <code>.harness-eng/</code> scaffold with constitution, BRD, architecture, and technology decisions. Two minutes. The foundation is ready.</p>
 
 <h2>Step 3: Define Features</h2>
@@ -251,7 +253,7 @@ graph TD
 
 <h2>Step 1: Initialise the Harness</h2>
 <p>Open your agent in the project directory and paste:</p>
-<div class="callout callout-quote"><p>Read the harness rules from https://github.com/AvonS/harness-eng and initialise this project using the harness.</p></div>
+<div class="callout callout-quote"><p>Read the harness reference at https://avonsi.com/harness-ref/SKILL.md and initialise this project using the harness.</p></div>
 <p>The agent scans your existing code, reads any docs (README, ADRs), and reverse-engineers the constitution, BRD, and architecture from what exists. It derives naming conventions from the actual code, not an ideal. The architecture rules come from the actual module boundaries, not a diagram.</p>
 
 <h2>Step 2: Review and Refine</h2>
@@ -433,19 +435,21 @@ gitGraph
 
 <h1>Companion Resources</h1>
 <ul>
-  <li><a href="https://github.com/AvonS/harness-eng" target="_blank">harness-eng on GitHub</a> — the reference implementation (MIT licence)</li>
-  <li><a href="https://avons.github.io/" target="_blank">The Agentic Engineering Journey</a> — the five levels and three frameworks</li>
+  <li><a href="../../harness-ref/SKILL.md">harness-ref</a> — a minimal, framework-free reference (MIT licence)</li>
+  <li><a href="https://oystro.com" target="_blank">Oystro</a> — the productised protocol and engine</li>
+  <li><a href="https://github.com/oystro/oystro-oss" target="_blank">oystro-oss</a> — the public Oystro protocol</li>
+  <li><a href="https://avonsi.com/" target="_blank">The Agentic Engineering Journey</a> — the five levels and three frameworks</li>
   <li><a href="../../guides/synthesis/" target="_blank">From Domain to Factory</a> — the four-layer sequence</li>
   <li><a href="https://krishavanoor.github.io/ai-manifesto/" target="_blank">The AI Manifesto</a> — the user manual for thinking clearly with AI</li>
 </ul>
 
 </div>
 
-<utterances-comments repo="AvonS/avons.github.io"></utterances-comments>
+<utterances-comments repo="avonsiservices/avonsiservices.github.io"></utterances-comments>
 
 <div class="article-feedback-meta">
-  <p>Prefer email? Reach out at <span class="spamspan"><span class="u">avonslabs</span> [at] <span class="d">gmail [dot] com</span> (<span class="t">AvonSlabs</span>)</span> &nbsp;·&nbsp;
-  Follow <a href="https://github.com/AvonS" target="_blank">github.com/AvonS</a> for future updates and related work in agentic engineering.</p>
+  <p>Prefer email? Reach out at <span class="spamspan"><span class="u">krishna</span> [at] <span class="d">avonsi [dot] com</span> (<span class="t">Krishna</span>)</span> &nbsp;·&nbsp;
+  Follow <a href="https://github.com/avonsiservices" target="_blank">github.com/avonsiservices</a> for future updates and related work in agentic engineering.</p>
 </div>
 
 <site-footer-article></site-footer-article>
