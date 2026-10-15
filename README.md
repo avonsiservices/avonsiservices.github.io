@@ -1,8 +1,8 @@
-# Avon Software Labs: The Path to Agentic Engineering
+# Avonsi Services: The Path to Agentic Engineering
 
-<img src="assets/logo.png?v=1.1" alt="Avon Software Labs Logo" width="120">
+<img src="assets/logo.png?v=2" alt="Avonsi Services Logo" width="120">
 
-Welcome to **Avon Software Labs**, a personal space dedicated to exploring the evolving landscape of agentic engineering. This repository hosts a collection of articles and guides designed to help practitioners navigate the transition from traditional agile to agent-first development.
+Welcome to **Avonsi Services**, a personal space dedicated to exploring the evolving landscape of agentic engineering. This repository hosts a collection of articles and guides designed to help practitioners navigate the transition from traditional agile to agent-first development.
 
 Our core mission is to bridge the gap between theoretical agentic development (often focused on greenfield projects) and the complex reality of enterprise brownfield environments. We emphasize building robust "harnesses" and precise context for AI agents, rather than relying on LLM "magic."
 
@@ -52,8 +52,8 @@ To run this project locally, clone the repository and use the provided `serve.py
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/AvonS/avons.github.io.git
-    cd avons.github.io
+    git clone https://github.com/avonsiservices/avonsiservices.github.io.git
+    cd avonsiservices.github.io
     ```
 2.  **Start the local development server:**
     ```bash
@@ -75,10 +75,10 @@ To run this project locally, clone the repository and use the provided `serve.py
 Your feedback is invaluable as we refine these ideas.
 
 *   **Comments**: Use the Git repository discussion / issues to to share your feedback
-*   **Email**: Prefer email? Reach out at <span class="spamspan"><span class="u">avonslabs</span> [at] <span class="d">gmail [dot] com</span> (<span class="t">AvonSlabs</span>)</span>.
-*   **GitHub**: Follow [@AvonS](https://github.com/AvonS) for updates and related work.
-*   **Star the Repo**: If you find this resource useful, please consider [starring the repository](https://github.com/AvonS/avons.github.io) to help others discover it.
+*   **Email**: Prefer email? Reach out at <span class="spamspan"><span class="u">krishna</span> [at] <span class="d">avonsi [dot] com</span> (<span class="t">Krishna</span>)</span>.
+*   **GitHub**: Follow [@avonsiservices](https://github.com/avonsiservices) for updates and related work.
+*   **Star the Repo**: If you find this resource useful, please consider [starring the repository](https://github.com/avonsiservices/avonsiservices.github.io) to help others discover it.
 
 ---
 
-Built with 🧡 by Avon Software Labs.
+Built with 🧡 by Avonsi Services.

@@ -14,7 +14,7 @@ class NoCacheHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
 def run_server(port):
     try:
         with socketserver.TCPServer(("", port), NoCacheHTTPRequestHandler) as httpd:
-            print(f"🚀 Avon Software Labs Dev Server")
+            print(f"🚀 Avonsi Services Dev Server")
             print(f"🔗 Local: http://localhost:{port}")
             print(f"🛑 Press Ctrl+C to stop")
             print(f"💡 Caching is DISABLED")

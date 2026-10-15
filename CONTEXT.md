@@ -1,4 +1,4 @@
-# Avon Software Labs — Project Context & Continuation Guide
+# Avonsi Services — Project Context & Continuation Guide
 > Generated: March 2026  
 > For use in a new Claude Code / CLI session to continue this project
 
@@ -16,8 +16,8 @@ git branch --show-current
 
 ## Who You Are
 
-- **Brand:** Avon Software Labs
-- **Site:** avons.github.io  
+- **Brand:** Avonsi Services
+- **Site:** avonsi.com  
 - **Purpose:** Personal blog/publishing space for articles on agentic engineering and related frameworks  
 - **Style:** Black and white editorial — clean, professional, low-strain charcoal dark mode.
 - **License:** MIT License for code (see LICENSE file), CC BY 4.0 for content (see site footer).
@@ -27,7 +27,7 @@ git branch --show-current
 ## Repo Structure
 
 ```
-avons.github.io/
+avonsiservices.github.io/
 ├── index.html              ← Landing Page (Curriculum Roadmap)
 ├── notes/                  ← Articles and Field Notes
 │   ├── agentic-engineering/ ← "The Agentic Engineering Journey"
@@ -66,7 +66,7 @@ avons.github.io/
 | `<site-header-article>` | Article navigation (Home link) | N/A |
 | `<guide-header>` | SPA Guide navigation | `title="Guide Name"` |
 | `<site-footer>` | Shared centered footer | N/A |
-| `<utterances-comments>` | GitHub Issue-based comments | `repo="owner/repo"` (e.g., `AvonS/avons.github.io`) |
+| `<utterances-comments>` | GitHub Issue-based comments | `repo="owner/repo"` (e.g., `avonsiservices/avonsiservices.github.io`) |
 
 ### 📖 SPA Guide System (`assets/guide.js`)
 - **Structure:** Use `<div class="guide-page" id="page-n">` for chapters.
@@ -91,7 +91,7 @@ Classes defined in `article.css`:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Title — Avon Software Labs</title>
+  <title>Title — Avonsi Services</title>
   <link rel="stylesheet" href="../../assets/style.css">
   <link rel="stylesheet" href="../../assets/guide.css">
   <script src="../../assets/components.js" defer></script>

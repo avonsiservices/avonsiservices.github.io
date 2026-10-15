@@ -1,5 +1,5 @@
 /* ============================================================
-   avons.github.io — shared web components
+   avonsi.com — shared web components
    assets/components.js · v2.1
    ============================================================ */
 
@@ -36,10 +36,10 @@ class SiteFooter extends HTMLElement {
         <div class="site-footer-meta">
           <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
           &nbsp;&nbsp;
-          <a href="https://avons.github.io">avons.github.io</a>
+          <a href="https://avonsi.com">avonsi.com</a>
           &nbsp;&nbsp;2026
           &nbsp;&nbsp;·&nbsp;&nbsp;
-          <a href="https://github.com/AvonS/avons.github.io" target="_blank" title="Star on GitHub">⭐ Star on GitHub</a>
+          <a href="https://github.com/avonsiservices/avonsiservices.github.io" target="_blank" title="Star on GitHub">⭐ Star on GitHub</a>
         </div>
       </footer>`;
   }
@@ -56,10 +56,10 @@ class SiteFooterArticle extends HTMLElement {
         <div class="site-footer-meta">
           <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
           &nbsp;&nbsp;
-          <a href="https://avons.github.io">avons.github.io</a>
+          <a href="https://avonsi.com">avonsi.com</a>
           &nbsp;&nbsp;2026
           &nbsp;&nbsp;·&nbsp;&nbsp;
-          <a href="https://github.com/AvonS/avons.github.io" target="_blank" title="Star on GitHub">⭐ Star on GitHub</a>
+          <a href="https://github.com/avonsiservices/avonsiservices.github.io" target="_blank" title="Star on GitHub">⭐ Star on GitHub</a>
         </div>
       </footer>`;
   }
@@ -72,14 +72,14 @@ class SiteHeaderHome extends HTMLElement {
       <header class="site-header">
         <div class="site-header-main">
           <a class="site-name" href="/">
-            <img src="/assets/logo.png?v=1.1" alt="Avon Software Labs" class="logo-img">
-            <span class="logo-text">Avon <strong>Software Labs</strong></span>
+            <img src="/assets/logo.png?v=2" alt="Avonsi Services" class="logo-img">
+            <span class="logo-text">Avonsi <strong>Services</strong></span>
           </a>
           <nav class="site-header-nav">
             <a href="/">All</a>
             <a href="/#agentic">Agentic Engineering</a>
             <a href="/#frameworks">Frameworks</a>
-            <a href="https://github.com/AvonS" target="_blank">GitHub</a>
+            <a href="https://github.com/avonsiservices" target="_blank">GitHub</a>
             <span class="site-tagline">Exploring the journey to the software Dark Factory</span>
             ${themeToggleHTML()}
           </nav>
@@ -95,14 +95,14 @@ class SiteHeaderArticle extends HTMLElement {
       <header class="site-header">
         <div class="site-header-main">
           <a class="site-name" href="/">
-            <img src="/assets/logo.png?v=1.1" alt="Avon Software Labs" class="logo-img">
-            <span class="logo-text">Avon <strong>Software Labs</strong></span>
+            <img src="/assets/logo.png?v=2" alt="Avonsi Services" class="logo-img">
+            <span class="logo-text">Avonsi <strong>Services</strong></span>
           </a>
           <nav class="site-header-nav">
             <a class="back-link" href="/">Home</a>
             <div class="nav-divider"></div>
             <a href="/#agentic">Agentic Engineering</a>
-            <a href="https://github.com/AvonS" target="_blank">GitHub</a>
+            <a href="https://github.com/avonsiservices" target="_blank">GitHub</a>
             <span class="site-tagline">Exploring the journey to the software Dark Factory</span>
             ${themeToggleHTML()}
           </nav>
@@ -120,7 +120,7 @@ class GuideHeader extends HTMLElement {
       <nav class="guide-nav" id="guide-nav">
         <div class="guide-nav-left">
           <a class="guide-logo-link" href="/" title="Back to Home">
-            <img src="/assets/logo.png?v=1.1" alt="Avon Software Labs" class="guide-logo-img">
+            <img src="/assets/logo.png?v=2" alt="Avonsi Services" class="guide-logo-img">
           </a>
         </div>
 
